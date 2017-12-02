@@ -1,0 +1,81 @@
+<html>
+<head>
+    <title> WebPage with style</title>
+    
+    </head>
+    
+    <style type="text/css">
+        .red{
+            color: red
+        }
+        .large{
+            font-size: 100%;
+        }
+        #green{
+            color:green;
+        }
+        .underlined{
+            text-decoration: underline;
+        }
+        #firstSection{
+            color: blueviolet;
+            background-color: lightpink;
+            width: 400px;
+            /*
+            relative positioning
+            position: relative;
+            left: 100px;
+            bottom:100px;
+            z-index: 1;
+            */
+        }
+        #secondSection{
+            color: brown;
+            background-color:yellow;
+            width: 200px;
+            /*
+            for absolute position
+            position: absolute;
+            left: 500px;
+            top :300px;
+            */
+           /*
+            for relative positioning
+            position: relative;
+            z-index: 2;
+            opacity: 0.5;
+            */
+        }
+    
+    
+    </style>
+    
+    <body>
+    
+    
+        <div id="secondSection">
+            <p class="red large">Once some people managed to do something,</p>
+            
+            <h1 class=large>COOL</h1>
+            
+        
+            <p id="green">More text using id.<span class="underlined"> and this is underlined</span> </p>
+        
+        </div>
+    
+        
+    
+    <div id="firstSection">
+        
+        <p>Inside the div means division</p>
+        <p>It will affect the entire div</p>
+        
+        
+        </div>
+    
+    </body>
+
+
+
+
+</html>
