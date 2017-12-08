@@ -11,6 +11,7 @@
                 border-radius: 50%;
                 float: left;
                 margin-left: 50px;
+                margin-top: 20px;
                 
             }
             #redCircle{
@@ -21,6 +22,9 @@
             }
             #yellowCircle{
                 background-color: yellow;
+            }
+            #greenCircle{
+                background-color: green;
             }
         
         </style>
@@ -34,6 +38,8 @@
     <div class="circle" id="redCircle"></div>
         <div class="circle" id="yellowCircle"></div>
         <div class="circle" id="blueCircle"></div>
+        <div class="circle" id="greenCircle"></div>
+        
     <script type="text/javascript">
         
         
@@ -47,7 +53,9 @@
         document.getElementById("yellowCircle").onclick=function(){
             document.getElementById("yellowCircle").style.display="none";
         }
-        
+        document.getElementById("greenCircle").onclick=function(){
+            document.getElementById("greenCircle").style.display="none";
+        }
         
         
         </script>
