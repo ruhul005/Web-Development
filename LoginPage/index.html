@@ -1,0 +1,54 @@
+<html>
+<head>
+    <title>Login And registration</title>
+    <link rel="stylesheet" href="style.css">
+    
+    </head>
+    <body>
+    <div class="login-page">
+        
+        <div class="form">
+        <form class="register-form">
+        <input type="text" placeholder="Username"/>
+        <input type="text" placeholder="Password"/>
+        <input type="text" placeholder="Email/Phone"/>
+        <button>Create</button>
+        <p class="message">Already Registered? <a href="#">LogIn</a></p>
+            
+            
+            </form>
+            
+            <form class="login-form">
+            <input type="text" placeholder="Username"/>
+            <input type="text" placeholder="Password"/>
+            <button>LogIn</button>
+            <p class="message">Not Registeres yet? <a href="#">Register</a></p>
+            
+            
+            
+            </form>
+          
+        
+        </div>
+        </div>
+        
+        <script src='https://code.jquery.com/jquery-3.2.1.min.js'>
+        
+        </script>
+        
+        <script>
+        
+        $('.message a').click(function(){
+        $('form').animate({height:"toggle",opacity:"toggle"},"slow");
+        });
+     
+        </script>
+    
+    
+    
+    
+    
+    </body>
+
+
+</html>
