@@ -1,0 +1,30 @@
+<html>
+<head>
+    <title>FingersHolding</title>
+    
+    </head>
+    
+    <body>
+        
+        <p>How Many Fingers??</p>
+        <p><input type=text id="Guess"> <button id="checkGuess">Guess!!</button></p>
+    <script type="text/javascript">
+        
+        var value = Math.floor(Math.random()*5);
+        
+        document.getElementById("checkGuess").onclick=function(){
+            if(document.getElementById("Guess").value== value){
+                alert("Right");
+            }
+            else{
+                alert("Not Ok. The Number was"+value);
+            }
+            //alert(value);
+        }
+        
+        </script>
+        
+    
+    </body>
+
+</html>
